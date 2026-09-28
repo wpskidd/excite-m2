@@ -1,0 +1,16 @@
+/* Excite brand palette. Orange standardized by Bill on 2026-09-17. */
+:root{
+ --orange:#f30;--orange-deck:var(--orange);--orange-deep:var(--orange);
+ --black:#000;--dark:#050505;--panel:#111;--line:#303030;
+ --white:#fff;--text:#f2f2ef;--secondary:#c6c6c6;--muted:#a4a4a4;
+ --chart-muted:#a29d97;--chart-market:#9aa7c4;
+ --light:var(--dark);--warm:var(--dark);--callout:var(--panel);
+ --ink:var(--text);--ink-2:var(--secondary);--ink-3:var(--muted);
+ --rule:var(--line);--rule-2:var(--line);--plum-black:var(--black);--plum-panel:var(--panel);--plum-rule:var(--line);
+ --on-dark:var(--white);--on-dark-soft:var(--text);--on-dark-2:var(--secondary);--on-dark-3:var(--muted);
+ --sans:"Inter",Arial,Helvetica,system-ui,sans-serif;--serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+ --maxw:1280px;--gut:clamp(1.25rem,5vw,5rem);--header-height:72px;
+ --space-sm:8px;--space-md:16px;--space-lg:24px;--space-xl:48px;--space-section:clamp(72px,10vw,144px);
+ --ease-out:cubic-bezier(.2,.7,.2,1);--ease-in:cubic-bezier(.4,0,1,1);--ease-in-out:cubic-bezier(.4,0,.2,1);
+ --dur-fast:150ms;--radius-sm:2px;
+}
